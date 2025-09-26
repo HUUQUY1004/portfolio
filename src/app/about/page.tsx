@@ -20,7 +20,7 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Huu Quy a <span>Backend Developer</span>
+                    I am Huu Quy a <span>FullStack Developer</span>
                   </h2>
                   <p>
                     I am an Information Technology student with a strong background in web application development. Through both
@@ -153,6 +153,19 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 9/2025 to Present
+                          </h6>
+                          <h4 className="timeline-title">Java Developer</h4>
+                          <strong style={{marginBottom:"10px", display: "block"}}  className="timeline-text">TMA Solutions</strong>
+                          <p className="timeline-text">
+                            Build system with Backend Spring Boot and Unit Test function and system test
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
