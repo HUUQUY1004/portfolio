@@ -116,6 +116,13 @@ const About: NextPage = () => {
                         <div className="skill-percent">80%</div>
                       </div>
                     </div>
+                    <div className="skill-item padd-15">
+                      <h5>Clould</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "80%" }} />
+                        <div className="skill-percent">80%</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -199,6 +206,18 @@ const About: NextPage = () => {
                           <h4 className="timeline-title"> Software Development With SCRUM </h4>
                           <p className="timeline-text">
                            By AXON ACTIVE
+                          </p>
+                          <h4 className="timeline-title"> Devops For Fresher </h4>
+                          <p className="timeline-text">
+                           By DevopsEdu
+                          </p>
+                          <h4 className="timeline-title"> Kubernetes Certificate</h4>
+                          <p className="timeline-text">
+                           By DevopsEdu
+                          </p>
+                          <h4 className="timeline-title"> Centralized Log Management - CLM</h4>
+                          <p className="timeline-text">
+                           By DevopsEdu
                           </p>
                         </div>
                         {/* Timeline Item end */}
