@@ -122,6 +122,17 @@ const Service: NextPage = () => {
         </div>
       </div>
       {/* Service Item 7 End */}
+      {/* Service Item 8: Cloud*/}
+      <div className="service-item padd-15">
+        <div className="service-item-inner">
+          <div className="icon"><i className="fa fa-cloud" /></div>
+          <h4>Cloud</h4>
+          <p title="Strong communication and teamwork skills, with the ability to collaborate effectively in diverse teams and contribute to achieving common goals.">
+            Experience with cloud platforms such as AWS and Google Cloud, including deploying and managing applications and services in cloud environments.
+          </p>
+        </div>
+      </div>
+      {/* Service Item 8 End */}
     </div>
   </div>
 </section>

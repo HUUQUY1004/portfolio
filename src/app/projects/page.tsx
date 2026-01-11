@@ -146,6 +146,44 @@ const Blog: NextPage = () => {
               </div>
             </div>
             {/* Blog Item 3 End */}
+            {/* Blog Item 4 */}
+            <div className="blog-item padd-15">
+              <div className="blog-item-inner shadow-dark">
+                <div className="blog-img">
+                  
+                  <div className="blog-date">June 4, 2020</div>
+                </div>
+                <div className="blog-info">
+                  <h4 className="blog-title">
+                   Banking App
+                  </h4>
+                  <p title="An online platform for a nail salon where customers can browse and order products like an e-commerce store, and also book appointments for nail services." className="blog-description">
+                    An online platform for a nail salon where customers can browse and order products like an e-commerce store, 
+                    and also book appointments for nail services.
+                  </p>
+                  <h3>Features</h3>
+                  <ul className="blog-features">
+                    <li>The current account balance is calculated based on the SQL operation.</li>
+                    <li>Internalization of the application for three languages: English, VietNamese.</li>
+                    <li>Support for multiple currencies with the current rate supplied from an external server via API.</li>
+                    <li>Application programmed according to the correct design patterns and principle, i.e. SOLID.</li>
+                    <li>Software supports PWA, it is adapted to all modern browsers and mobile devices (RWD).</li>
+                    <li>Implementation of Google Analytics along with the Cookie Consent according to the GDPR.</li>
+                  </ul>
+                  <p className="blog-tags">
+                    Technology: <a href="#">NextJS</a>, <a href="#">NestJS</a>, 
+                    <a href="#"> PostgresQL</a>, <a href="#">JWT</a>, 
+                    <a href="#"> Redux</a>, <a href="#">NodeMailer</a>, 
+                    <a href="#"> Swagger</a>, <a href="#">Class-transformer/ Class-validator</a>, 
+                    <a href="#"> Helmet</a>, <a href="#">Rechart</a>, <a href="#">PWA</a>,
+                  </p>
+                  <p className="blog-tags">
+                    Link Github: <a href="https://github.com/HUUQUY1004/banking-project">To</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* Blog Item 4 End */}
           </div>
         </div>
       </section>
